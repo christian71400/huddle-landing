@@ -1,0 +1,102 @@
+body {
+  background-image: url(../images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 1440px;
+  background-color: hsl(257, 40%, 49%);
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+
+}
+
+h1 {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.15rem;
+  margin-bottom: 50px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.header {
+  padding: 50px 75px;
+}
+
+.middle-container {
+  display: flex;
+}
+.logo {
+  width: 225px;
+}
+
+.mockups {
+  display: inline-block;
+  padding: 20px 75px;
+  width: 45%;
+  height: 45%
+}
+
+.text-container {
+  width: 30%;
+  float: right;
+  margin-top: 50px;
+}
+
+.register-btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 2px 2px 7px #616161;
+  -moz-box-shadow: 2px 2px 7px #616161;
+  box-shadow: 2px 2px 7px #616161;
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(257, 40%, 49%);
+  font-size: 1.15rem;
+  background: #ffffff;
+  padding: 15px 60px;
+  text-decoration: none;
+}
+
+.register-btn:hover {
+  background: hsl(300, 69%, 71%);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.icons {
+  margin-top: 20px;
+  padding-left: 87%;
+
+}
+
+.fab {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+  padding: 10px;
+  margin: 5px;
+}
+
+.fa-facebook-f {
+  padding: 10px 13px;
+}
+
+.fab:hover {
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}
