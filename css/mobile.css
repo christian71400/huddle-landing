@@ -1,0 +1,94 @@
+body {
+  background-image: url(../images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: hsl(257, 40%, 49%);
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.logo {
+  width: 30%;
+  margin: 5%;
+}
+
+.mockups {
+  display: block;
+  margin: 10px auto 0 auto;
+  width: 80%;
+}
+
+.text-container {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.register-btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 2px 2px 7px #616161;
+  -moz-box-shadow: 2px 2px 7px #616161;
+  box-shadow: 2px 2px 7px #616161;
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(257, 40%, 49%);
+  font-size: 1rem;
+  background: #ffffff;
+  padding: 12px 90px;
+  text-decoration: none;
+}
+
+.register-btn:hover {
+  background: hsl(300, 69%, 71%);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0;
+}
+
+.fab {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+  padding: 10px;
+  margin: 5px;
+}
+
+.fa-facebook-f {
+  padding: 10px 13px;
+}
+
+.fab:hover {
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}
